@@ -7,7 +7,7 @@ pipeline {
         stage('Git Checkout') {
             steps {
                 git branch: 'master',
-                credentialsId: 'b3622eb9-2f74-4dd7-bb43-2b487f91eee8',
+                credentialsId: 'ab3aa4af-911e-4aa6-8cd1-9e04931f97cb',
                 url: 'https://github.com/shashisingh1998/test.git'
                 }
         }
